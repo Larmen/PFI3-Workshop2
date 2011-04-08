@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/scrollView"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#A4C639"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="25dip"
+    >
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello" android:textSize="20sp" android:typeface="monospace" android:visibility="visible" android:textColor="#000000" android:gravity="center_horizontal"/>
+
+<TextView android:text="Tag" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000"></TextView>
+
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:id="@+id/editText1" android:singleLine="true" android:maxLength="32" android:textColor="#000000" android:capitalize="sentences"></EditText>
+
+<TextView android:text="Message" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="256" android:textColor="#000000" android:capitalize="sentences"></TextView>
+
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:id="@+id/editText2" android:lines="3" android:textColor="#000000"></EditText>
+
+<Button android:id="@+id/button1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Submit"></Button>
+
+</LinearLayout>
+</ScrollView>
